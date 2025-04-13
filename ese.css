@@ -1,0 +1,142 @@
+.b1{
+  font-size:25px;
+  margin-left:15%;
+  color:black;
+  border:2px solid #293AF2;
+  animation:work 6s linear infinite;
+  height:50px;
+  width:70%;
+  border-radius:40px;
+}
+.b1:hover{
+  transform:rotate(360deg);
+  transition:2s;
+}
+@keyframes work{
+  25%{
+    box-shadow:0px 10px 20px #29F2C9;
+  }
+  50%{
+    box-shadow: 0px 6px 16px #F2F029;
+  }
+  75%{
+    box-shadow: 0px 18px 28px #E829F2;
+  }
+  100%{
+    box-shadow: 0px 1px 11px #28D4FF;
+  }
+}
+.ethio{
+  width:300px;
+  height:auto;
+  margin-top:50px;
+  margin-left:35%;
+}
+h1{
+  text-align:center;
+}
+p1{
+  font-style:italic;
+  font-size:20px;
+}
+p2{
+  font-style:italic;
+  font-size:20px;
+}
+p3{
+  font-style:italic;
+  font-size:20px;
+}
+li{
+  font-style:italic;
+  font-size:20px;
+}
+summary{
+  margin-left:20%;
+}
+.w1{
+  width:400px;
+  height:auto;
+  border-radius:20px;
+}
+.w2{
+  width:400px;
+  height:auto;
+  border-radius:20px;
+  margin-left:15px;
+}
+.w3{
+  width:400px;
+  height:auto;
+  border-radius:20px;
+  margin-top:2%;
+}
+.mid{
+  margin-top:5%;
+}
+.login-part{
+  background-image: url('Wi-fi2.jpg');
+  background-size:cover;
+  background-position:180deg;
+  width:50%;
+  height:250px;
+  border-radius:20px;
+  margin-left:20%;
+}
+.user{
+  margin-top:5%;
+  height:30px;
+  background:transparent;
+  text-align:center;
+  border-radius:15px;
+  color:white;
+  margin-left:20px;
+}
+.user:focus{
+  outline:none;
+  border:2px solid white;
+}
+.pass{
+  height:30px;
+  background:transparent;
+  text-align:center;
+  border-radius:15px;
+  color:white;
+  margin-left:20px;
+}
+.pass:focus{
+  outline:none;
+  border:2px solid white;
+}
+.password{
+  height:30px;
+  background:transparent;
+  text-align:center;
+  border-radius:15px;
+  color:white;
+  margin-left:20px;
+}
+.password:focus{
+  outline:none;
+  border:2px solid white;
+}
+.check{
+  background:#377527;
+  color:white;
+  font-size:20px;
+  padding:5px 20px;
+  border-radius:20px;
+  margin-left:70px;
+  border:none;
+}
+h4{
+  text-align:center;
+}
+.final{
+  width:300px;
+  height:auto;
+}
+h6{
+  font-size:20px;
+  text-align:center;
+}
